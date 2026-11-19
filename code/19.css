@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  width: 400px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #333;
+  padding: 15px;
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #e6f2ff;
+}
+
+td.active {
+  background-color: orange;
+}
